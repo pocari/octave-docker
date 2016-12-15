@@ -3,6 +3,7 @@ FROM buildpack-deps:jessie
 RUN apt-get update && \
     apt-get install -y \
             locales \
+            less \
             octave-control \
             octave-image \
             octave-io \
