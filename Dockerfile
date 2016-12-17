@@ -11,6 +11,7 @@ RUN apt-get update && \
             octave-signal \
             octave-statistics \
             gnuplot \
+            ghostscript \
             --no-install-recommends && \
     rm -rf /var/lib/apt/lists/*
 
